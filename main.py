@@ -3,7 +3,7 @@ import re
 import os
 import time
 
-BOARD_URL = "https://pin.it/xyz" # replace the link w ur board url
+BOARD_URL = "https://pin.it/xyz" # replace the link with your board's url
 OUT_DIR = "pinterest_images"
 
 os.makedirs(OUT_DIR, exist_ok=True)
